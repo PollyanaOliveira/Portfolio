@@ -1,6 +1,8 @@
 import './App.css';
 
-function App() {
+import Profile from './images/profile-images/profile.jpeg';
+
+export default function App() {
   return (
     <div className="App">
       {/* <!--===== HEADER =====--> */}
@@ -20,8 +22,20 @@ function App() {
           </div>
         </nav>
     </header>
+    <main className="l-main">
+      {/* <!--===== HOME =====--> */}
+      <section className="home bd-grid">
+        <div className="home__data">
+          <h1 className="home__title">
+            Hi,<br />I'am<span className="home__title-color"> Pollyana</span><br />Developer
+          </h1>
+          <a href="#home" className="button">Contact</a>
+        </div>
+        <div class="home__img">    
+          <img src={Profile} alt="profile" />
+        </div>
+      </section>
+    </main>
     </div>
   );
 }
-
-export default App;
