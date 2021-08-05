@@ -1,5 +1,7 @@
 import './App.css';
 
+import Skills from './components/Skills';
+
 import Profile from './images/profile-images/profile.jpeg';
 
 export default function App() {
@@ -48,6 +50,7 @@ export default function App() {
           </p>
         </div>
       </section>
+      <Skills />
     </main>
     </div>
   );
