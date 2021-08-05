@@ -35,6 +35,19 @@ export default function App() {
           <img src={Profile} alt="profile" />
         </div>
       </section>
+      {/* <!--===== ABOUT =====--> */}
+      <section className="about section">
+        <h2 className="section-title">About</h2>
+        <div className="about__container bd-grid">
+          <div>Imagem a escolher</div>
+        </div>
+        <div>
+          <h2 className="about__subtitle">I'am Pollyana</h2>
+          <p className="about__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.
+          </p>
+        </div>
+      </section>
     </main>
     </div>
   );
