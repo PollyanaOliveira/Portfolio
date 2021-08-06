@@ -1,5 +1,3 @@
-import './App.css';
-
 import {FaWhatsapp} from 'react-icons/fa';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {CgCopyright} from 'react-icons/cg';
@@ -93,7 +91,7 @@ export default function App() {
           <a href="https://www.github.com/PollyanaOliveira"><FaGithub className="social__icon" /></a>
         </div>
         </div>
-        <p className="footer__copy"><CgCopyright /> 2021 PollyanaOliveira. copyright all reserved</p>
+        <p className="footer__copy"><CgCopyright /> 2021 PollyanaOliveira. All rigth reserved</p>
       </footer>
     </main>
     </div>
