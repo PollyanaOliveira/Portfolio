@@ -1,5 +1,7 @@
 import './App.css';
 
+import {FaWhatsapp} from 'react-icons/fa';
+
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 
@@ -53,6 +55,20 @@ export default function App() {
       </section>
       <Skills />
       <Projects />
+      {/* <!--===== CONTACT =====--> */}
+      <section className="contact__section">
+        <h2 className="section__title">Contact</h2>
+        <div className="contact__container">
+          <div>
+            <h3 className="contact__subtitle">E-MAIL</h3>
+            <span className="contact__text">pollyana.deoliveir@gmail.com</span>
+            <h3 className="contact__subtitle">PHONE</h3>
+            <span className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span>
+            <h3 className="contact__subtitle">ADRESS</h3>
+            <span className="contact__text">Campo Grande - MS / Brazil</span>
+          </div>
+          </div>
+      </section>
     </main>
     </div>
   );
