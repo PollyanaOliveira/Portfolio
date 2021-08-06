@@ -1,6 +1,7 @@
 import {FaWhatsapp} from 'react-icons/fa';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {CgCopyright} from 'react-icons/cg';
+import {GiHamburgerMenu} from 'react-icons/gi';
 
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -24,6 +25,9 @@ export default function App() {
               <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
               <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
+            <div className="nav__toggle">
+              <GiHamburgerMenu />
+            </div>
           </div>
         </nav>
     </header>
