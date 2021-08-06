@@ -70,7 +70,7 @@ export default function App() {
             <span className="contact__text">pollyana.deoliveir@gmail.com</span>
             <h3 className="contact__subtitle">PHONE</h3>
             <span className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span>
-            <h3 className="contact__subtitle">ADRESS</h3>
+            <h3 className="contact__subtitle">ADDRESS</h3>
             <span className="contact__text">Campo Grande - MS / Brazil</span>
           </div>
           </div>
