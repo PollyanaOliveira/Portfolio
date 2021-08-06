@@ -5,7 +5,7 @@ import {GiOctopus, GiHook} from 'react-icons/gi';
 import {SiJest, SiRedux, SiMysql, SiMongodb} from 'react-icons/si';
 import {FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaReact} from 'react-icons/fa';
 
-import work from '../images/skills-image/work.png';
+import work from '../images/skills-images/work.png';
 
 export default function Skills() {
   return (

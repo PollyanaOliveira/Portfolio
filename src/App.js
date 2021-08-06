@@ -1,6 +1,7 @@
 import './App.css';
 
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 import Profile from './images/profile-images/profile.jpeg';
 
@@ -51,6 +52,7 @@ export default function App() {
         </div>
       </section>
       <Skills />
+      <Projects />
     </main>
     </div>
   );
