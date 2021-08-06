@@ -1,6 +1,8 @@
 import './App.css';
 
 import {FaWhatsapp} from 'react-icons/fa';
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import {CgCopyright} from 'react-icons/cg';
 
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -21,7 +23,7 @@ export default function App() {
               <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
               <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-              <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+              <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
               <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
           </div>
@@ -69,6 +71,30 @@ export default function App() {
           </div>
           </div>
       </section>
+      {/* <!--===== FOOTER =====--> */}
+      <footer className="footer">
+      <div className="footer__container">
+        <div>
+          <h2 className="footer__title">POLLYANA OLIVEIRA</h2>
+        </div>
+        <div>
+          <h2 className="footer__title">EXPLORE</h2>
+            <ul>
+              <li><a href="#home" className="footer__link">Home</a></li>
+              <li><a href="#about" className="footer__link">About</a></li>
+              <li><a href="#skills" className="footer__link">Skills</a></li>
+              <li><a href="#portfolio" className="footer__link">Portfolio</a></li>
+              <li><a href="#contact" className="footer__link">Contact</a></li>
+            </ul>
+        </div>            
+        <div>
+          <h2 className="footer__title">FOLLOW</h2>
+          <a href="https://www.linkedin.com/in/adao-bjunior/"><FaLinkedinIn className="social__icon" /></a>
+          <a href="https://www.github.com/PollyanaOliveira"><FaGithub className="social__icon" /></a>
+        </div>
+        </div>
+        <p className="footer__copy"><CgCopyright /> 2021 PollyanaOliveira. copyright all reserved</p>
+      </footer>
     </main>
     </div>
   );
