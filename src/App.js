@@ -48,7 +48,9 @@ export default function App() {
       <section className="about section">
         <h2 className="section-title">About</h2>
         <div className="about__container bd-grid">
-          <div>Imagem a escolher</div>
+          <div className="about__img">
+            <img src={Profile} alt="profile" />
+          </div>
         </div>
         <div>
           <h2 className="about__subtitle">I'am Pollyana</h2>
