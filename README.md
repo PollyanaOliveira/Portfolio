@@ -5,6 +5,7 @@
 ## Informações Revelantes
 
 Este portfólio está em construção. Mas nada te impede de stalkear 😉
+Em breve, no GH-Pages. Aguarde!
 
 
 ## Desenvolvido por
