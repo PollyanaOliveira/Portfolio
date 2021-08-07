@@ -77,26 +77,11 @@ export default function App() {
       </section>
       {/* <!--===== FOOTER =====--> */}
       <footer className="footer">
-      <div className="footer__container">
-        <div>
-          <h2 className="footer__title">POLLYANA OLIVEIRA</h2>
-        </div>
-        <div>
-          <h2 className="footer__title">EXPLORE</h2>
-            <ul>
-              <li><a href="#home" className="footer__link">Home</a></li>
-              <li><a href="#about" className="footer__link">About</a></li>
-              <li><a href="#skills" className="footer__link">Skills</a></li>
-              <li><a href="#portfolio" className="footer__link">Portfolio</a></li>
-              <li><a href="#contact" className="footer__link">Contact</a></li>
-            </ul>
-        </div>            
-        <div>
-          <h2 className="footer__title">FOLLOW</h2>
-          <a href="https://www.linkedin.com/in/adao-bjunior/"><FaLinkedinIn className="social__icon" /></a>
-          <a href="https://www.github.com/PollyanaOliveira"><FaGithub className="social__icon" /></a>
-        </div>
-        </div>
+          <p className="footer__title">Pollyana Oliveira</p>
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/in/adao-bjunior/"><FaLinkedinIn className="social__icon" /></a>
+            <a href="https://www.github.com/PollyanaOliveira"><FaGithub className="social__icon" /></a>
+          </div>
         <p className="footer__copy"><CgCopyright /> 2021 PollyanaOliveira. All rigth reserved</p>
       </footer>
     </main>
