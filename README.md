@@ -6,7 +6,7 @@
 
 Este portfólio está em construção. Mas nada te impede de stalkear 😉
 <br>
-Em breve, no GH-Pages. Aguarde!
+Em breve no GH-Pages. Aguarde!
 </br>
 
 

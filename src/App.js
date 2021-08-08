@@ -5,6 +5,7 @@ import {GiHamburgerMenu} from 'react-icons/gi';
 
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Animation from './components/Animation';
 
 import Profile from './images/profile-images/profile.jpeg';
 
@@ -47,7 +48,7 @@ export default function App() {
         </div>
 
         <div class="home__img">    
-          <img src={Profile} alt="profile" />
+          <Animation />
         </div>
       </section>
       {/* <!--===== ABOUT =====--> */}
