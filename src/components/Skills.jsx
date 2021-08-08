@@ -9,8 +9,9 @@ import work from '../images/skills-images/work.png';
 
 export default function Skills() {
   return (
-    <section>
-      <h2 className="skills section">Skills</h2>
+    <section className="skills section" id="skills">
+      <h2 className="section-title">Skills</h2>
+
       <div className="skills__container bd-grid">
         <div>
           <h2 className="skills__subtitle">Professional Skills</h2>
@@ -19,37 +20,93 @@ export default function Skills() {
           </p>
           <div className="skills__data">
             <div className="skills__names">
-                <FaGitAlt />
+                <FaGitAlt className="skills__icon" />
                 <span>GIT</span>
-                <FaGithub />
-                <span>GitHub</span>
-                <FaHtml5 />
-                <span>HTML5</span>
-                <FaCss3Alt />
-                <span>CSS3</span>
-                <DiJavascript />
-                <span>JavaScript</span>
-                <SiJest />
-                <span>JEST</span>
-                <FaReact />
-                <span>React.JS</span>
-                <GiOctopus />
-                <span>RTL</span>  
-                <SiRedux />
-                <span>Redux</span>
-                <GiHook />
-                <span>Hooks</span>
-                <SiMysql />
-                <span>MySQL</span>
-                <SiMongodb />
-                <span>MongoDB</span>
-              </div>
-              </div>
-              <div>
-              <img src={work} alt="work_skills" />
-              </div>
-            </div>            
+                <div className="skills__bar" />
+            </div>
           </div>
+          <div className="skills__data">
+            <div className="skills__names">
+                <FaGithub className="skills__icon" />
+                <span>GitHub</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>
+          <div className="skills__data">
+            <div className="skills__names">
+                <FaHtml5 className="skills__icon" />
+                <span>HTML5</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>      
+          <div className="skills__data">
+            <div className="skills__names">
+                <FaCss3Alt className="skills__icon" />
+                <span>CSS3</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>     
+          <div className="skills__data">
+            <div className="skills__names">
+                <DiJavascript className="skills__icon" />
+                <span>JavaScript</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>       
+          <div className="skills__data">
+            <div className="skills__names">
+                <SiJest className="skills__icon" />
+                <span>JEST</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>       
+          <div className="skills__data">
+            <div className="skills__names">
+                <FaReact className="skills__icon" />
+                <span>React.JS</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>       
+          <div className="skills__data">
+            <div className="skills__names">
+                <GiOctopus className="skills__icon" />
+                <span>RTL</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>       
+          <div className="skills__data">
+            <div className="skills__names">
+                <SiRedux className="skills__icon" />
+                <span>Redux</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>         
+          <div className="skills__data">
+            <div className="skills__names">
+                <GiHook className="skills__icon" />
+                <span>Hooks</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>      
+          <div className="skills__data">
+            <div className="skills__names">
+                <SiMysql className="skills__icon" />
+                <span>MySQL</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>      
+          <div className="skills__data">
+            <div className="skills__names">
+                <SiMongodb className="skills__icon" />
+                <span>MongoDB</span>
+                <div className="skills__bar skills__css" />
+            </div>
+          </div>                
+        </div>
+            <div>
+            <img src={work} alt="work_skills" className="skills__img" />
+            </div>           
+      </div>
     </section>
   );
 }
