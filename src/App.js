@@ -1,3 +1,5 @@
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import {FaWhatsapp} from 'react-icons/fa';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {CgCopyright} from 'react-icons/cg';
@@ -8,8 +10,15 @@ import Projects from './components/Projects';
 import Animation from './components/Animation';
 
 import Profile from './images/profile-images/profile.jpeg';
+import { useEffect } from 'react';
 
 export default function App() {
+  // ---------------------------------------------------------------------------------------------
+    // CICLOS DE VIDA
+    useEffect(() => { Aos.init({ duration: 2000 }); }, []);
+
+    // ---------------------------------------------------------------------------------------------
+  
   return (
     <div className="App">
       {/* <!--===== HEADER =====--> */}
@@ -20,11 +29,11 @@ export default function App() {
           </div>
           <div className="nav__menu" id="nav-menu">
             <ul className="nav__list">
-              <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-              <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-              <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-              <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
-              <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+              <li className="nav__item"><a href="#home" className="nav__link active">Home</a></li>
+              <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
+              <li className="nav__item"><a href="#skills" className="nav__link">Skills</a></li>
+              <li className="nav__item"><a href="#portfolio" className="nav__link">Projects</a></li>
+              <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
             </ul>
             <div className="nav__toggle" id="nav-toggle">
               <GiHamburgerMenu />
@@ -35,26 +44,26 @@ export default function App() {
     <main className="l-main">
       {/* <!--===== HOME =====--> */}
       <section className="home bd-grid" id="home">
-        <div className="home__data">
+        <div data-aos="fade-down" className="home__data">
           <h1 className="home__title">
             Hi,<br />I'am<span className="home__title-color"> Pollyana</span><br />Developer
           </h1>
           <a href="#contact" className="button">Contact</a>
         </div>
 
-        <div class="home__social">
-            <a href="https://www.linkedin.com/in/oliveirapollyana/" class="home__social-icon"><FaLinkedinIn /></a>
-            <a href="https://www.github.com/PollyanaOliveira" class="home__social-icon"><FaGithub /></a>
+        <div className="home__social">
+            <a href="https://www.linkedin.com/in/oliveirapollyana/" className="home__social-icon"><FaLinkedinIn /></a>
+            <a href="https://www.github.com/PollyanaOliveira" className="home__social-icon"><FaGithub /></a>
         </div>
 
-        <div class="home__img">    
+        <div data-aos="fade-down" data-aos-delay="500" className="home__img">    
           <Animation />
         </div>
       </section>
       {/* <!--===== ABOUT =====--> */}
       <section className="about section" id="about">
-        <h2 className="section-title">About</h2>
-        <div className="about__container bd-grid">
+        <h2 data-aos="fade-down" className="section-title">About</h2>
+        <div data-aos="fade-down" className="about__container bd-grid">
           <div className="about__img">
             <img src={Profile} alt="profile" />
           </div>
@@ -70,16 +79,21 @@ export default function App() {
       <Projects />
       {/* <!--===== CONTACT =====--> */}
       <section className="contact__section" id="contact">
-        <h2 className="section-title">Contact</h2>
+        <h2 data-aos="fade-down" className="section-title">Contact</h2>
 
         <div className="contact__container bd-grid">
           <div>
-            <h3 className="contact__subtitle">E-MAIL</h3>
-            <a href="mailto:pollyana.deoliveir@gmail.com"><span className="contact__text">pollyana.deoliveir@gmail.com</span></a>
-            <h3 className="contact__subtitle">PHONE</h3>
-            <a href="https://api.whatsapp.com/send?phone=5567981155931"><span className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span></a>
-            <h3 className="contact__subtitle">ADDRESS</h3>
-            <span className="contact__text">Campo Grande - MS / Brazil</span>
+            <h3 data-aos="fade-down" className="contact__subtitle">E-MAIL</h3>
+            <a href="mailto:pollyana.deoliveir@gmail.com">
+              <span data-aos="fade-down" data-aos-delay="200" className="contact__text">pollyana.deoliveir@gmail.com</span>
+            </a>
+            <h3 data-aos="fade-down" data-aos-delay="600" className="contact__subtitle">PHONE</h3>
+            <a href="https://api.whatsapp.com/send?phone=5567981155931">
+              <span data-aos="fade-down" data-aos-delay="600" className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span>
+            </a>
+            <span data-aos="fade-down" data-aos-delay="600" className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span>
+            <h3 data-aos="fade-down" data-aos-delay="1000" className="contact__subtitle">ADDRESS</h3>
+            <span data-aos="fade-down" data-aos-delay="1000" className="contact__text">Campo Grande - MS / Brazil</span>
           </div>
           </div>
       </section>
