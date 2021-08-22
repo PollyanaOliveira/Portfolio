@@ -36,27 +36,27 @@ export default function Projects() {
         </div>
 
         <div data-aos="fade-down" data-aos-delay="600"className="portfolio__img">
-          <a href="https://github.com/PollyanaOliveira/extras-projects/tree/main/2.Proj_Extras/Anna_Bella" className="portfolio_details">
+          <a href="https://github.com/PollyanaOliveira/anna-bella" className="portfolio_details">
             <img src={model} alt="" />
           </a>
         </div>
 
         <div data-aos="fade-down" data-aos-delay="800" className="portfolio__img">
-          <a href="https://github.com/PollyanaOliveira/extras-projects/tree/main/2.Proj_Extras/JM_Viagens" className="portfolio_details">
+          <a href="https://github.com/PollyanaOliveira/jm-viagens" className="portfolio_details">
             <img src={jm} alt="" />
           </a>
         </div>
 
         <div data-aos="fade-down" data-aos-delay="1000" className="portfolio__img">
-          <a href="https://github.com/PollyanaOliveira/extras-projects/tree/main/2.Proj_Extras/TecBlog" className="portfolio_details">
+          <a href="https://github.com/PollyanaOliveira/tecnoblog" className="portfolio_details">
             <img src={blog} alt="" />
           </a>
         </div>
 
         <div data-aos="fade-down" data-aos-delay="1200" className="portfolio__img">
-          {/* <a href="https://github.com/PollyanaOliveira/trivia-game" className="portfolio_details"> */}
+          <a href="https://github.com/PollyanaOliveira/trivia-game" className="portfolio_details">
             <img src={trivia} alt="" />
-          {/* </a> */}
+          </a>
         </div>
 
         <div data-aos="fade-down" data-aos-delay="1400" className="portfolio__img">
