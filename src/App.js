@@ -105,7 +105,6 @@ export default function App() {
             <a href="https://api.whatsapp.com/send?phone=5567981155931">
               <span data-aos="fade-down" data-aos-delay="600" className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span>
             </a>
-            <span data-aos="fade-down" data-aos-delay="600" className="contact__text"><FaWhatsapp /> +55 67 98115-5931</span>
             <h3 data-aos="fade-down" data-aos-delay="1000" className="contact__subtitle">ADDRESS</h3>
             <span data-aos="fade-down" data-aos-delay="1000" className="contact__text">Campo Grande - MS / Brazil</span>
           </div>
