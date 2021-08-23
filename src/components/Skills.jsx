@@ -20,9 +20,9 @@ export default function Skills() {
     <section className="skills section bd-grid" id="skills">
       <h2 data-aos="fade-down" className="section-title">Skills</h2>
       <h2 data-aos="fade-down" className="skills__subtitle">Professional Skills</h2>
-      <p data-aos="fade-down" data-aos-delay="300" className="skills__text">
+      {/* <p data-aos="fade-down" data-aos-delay="300" className="skills__text">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.
-      </p>
+      </p> */}
       <div data-aos="fade-down" data-aos-delay="200" className="skills__container">
         <div className="skills__data">
           <div className="skills__names">
